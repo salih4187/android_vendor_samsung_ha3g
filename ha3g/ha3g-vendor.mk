@@ -18,4 +18,4 @@
 DEVICE_PACKAGE_OVERLAYS := vendor/samsung/ha3g/overlay
 
 $(call inherit-product, vendor/samsung/ha3g/ha3g-vendor-blobs.mk)
-$(call inherit-product, vendor/samsung/exynos5420-common/exynos5420-common-vendor.mk)
+$(call inherit-product, vendor/samsung/universal5420-common/universal5420-common-vendor.mk)
