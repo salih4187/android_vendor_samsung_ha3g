@@ -116,7 +116,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4335_V0091.0405_wisol.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4335_V0091.0405_wisol.hcd \
   vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4335_V0093.0400.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4335_V0093.0400.hcd \
   vendor/samsung/ha3g/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
-  vendor/samsung/ha3g/proprietary/lib/hw/camera.vendor.universal5420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.universal5420.so \
   vendor/samsung/ha3g/proprietary/lib/libarcsoft_nighthawk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_nighthawk.so \
   vendor/samsung/ha3g/proprietary/lib/libliveframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libliveframework.so \
   vendor/samsung/ha3g/proprietary/bin/drmserver.samsung:$(TARGET_COPY_OUT_VENDOR)/bin/drmserver.samsung \
