@@ -35,8 +35,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/lib_SA_GoogleFX_ver124b.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SA_GoogleFX_ver124b.so \
   vendor/samsung/ha3g/proprietary/lib/soundfx/libaudiosa_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiosa_sec.so \
   vendor/samsung/ha3g/proprietary/lib/lib_SoundAlive_play_ver125e.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_play_ver125e.so \
-  vendor/samsung/ha3g/proprietary/vendor/lib/liblvverx_3.20.03.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblvverx_3.20.03.so \
-  vendor/samsung/ha3g/proprietary/vendor/lib/liblvvetx_3.20.03.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblvvetx_3.20.03.so \
   vendor/samsung/ha3g/proprietary/usr/share/alsa/alsa.conf:$(TARGET_COPY_OUT_SYSTEM)/usr/share/alsa/alsa.conf \
 
 # Yamaha data files
@@ -115,17 +113,12 @@ PRODUCT_COPY_FILES += \
 
   # Others
   PRODUCT_COPY_FILES += \
-  vendor/samsung/ha3g/proprietary/vendor/firmware/srp_cga.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/srp_cga.bin \
-  vendor/samsung/ha3g/proprietary/vendor/firmware/srp_data.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/srp_data.bin \
-  vendor/samsung/ha3g/proprietary/vendor/firmware/srp_vliw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/srp_vliw.bin \
   vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4335_V0091.0405_wisol.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4335_V0091.0405_wisol.hcd \
   vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4335_V0093.0400.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4335_V0093.0400.hcd \
   vendor/samsung/ha3g/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
   vendor/samsung/ha3g/proprietary/lib/hw/camera.vendor.universal5420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.universal5420.so \
-  vendor/samsung/ha3g/proprietary/lib/libexynoscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera.so \
   vendor/samsung/ha3g/proprietary/lib/libarcsoft_nighthawk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_nighthawk.so \
   vendor/samsung/ha3g/proprietary/lib/libliveframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libliveframework.so \
-  vendor/samsung/ha3g/proprietary/lib/libvdis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvdis.so \
   vendor/samsung/ha3g/proprietary/bin/drmserver.samsung:$(TARGET_COPY_OUT_VENDOR)/bin/drmserver.samsung \
   vendor/samsung/ha3g/proprietary/lib/libdrmdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmdecrypt.so \
   vendor/samsung/ha3g/proprietary/lib/libstagefright_hdcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_hdcp.so \
@@ -135,7 +128,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/drm/libdrmwvmplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/drm/libdrmwvmplugin.so \
   vendor/samsung/ha3g/proprietary/vendor/lib/libwvm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvm.so \
   vendor/samsung/ha3g/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
-  vendor/samsung/ha3g/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
   vendor/samsung/ha3g/proprietary/vendor/lib/libmalicore.bc:$(TARGET_COPY_OUT_VENDOR)/lib/libmalicore.bc \
   vendor/samsung/ha3g/proprietary/vendor/lib/libRSDriverArm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriverArm.so \
   vendor/samsung/ha3g/proprietary/bin/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/gpsd \
@@ -143,7 +135,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwrappergps.so \
   vendor/samsung/ha3g/proprietary/vendor/firmware/fimc_is_fw2_3L2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_fw2_3L2.bin \
   vendor/samsung/ha3g/proprietary/vendor/firmware/fimc_is_fw2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_fw2.bin \
-  vendor/samsung/ha3g/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin \
   vendor/samsung/ha3g/proprietary/vendor/firmware/setfile_3L2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3L2.bin \
   vendor/samsung/ha3g/proprietary/vendor/firmware/setfile_6b2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_6b2.bin \
   vendor/samsung/ha3g/proprietary/vendor/firmware/setfile_imx135.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_imx135.bin \
