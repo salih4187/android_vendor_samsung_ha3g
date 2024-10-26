@@ -130,7 +130,7 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/vendor/lib/libmalicore.bc:$(TARGET_COPY_OUT_VENDOR)/lib/libmalicore.bc \
   vendor/samsung/ha3g/proprietary/vendor/lib/libRSDriverArm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriverArm.so \
   vendor/samsung/ha3g/proprietary/bin/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/gpsd \
-  vendor/samsung/ha3g/proprietary/lib/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.default.so \
+  vendor/samsung/ha3g/proprietary/lib/hw/gps.universal5420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.universal5420.so \
   vendor/samsung/ha3g/proprietary/lib/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwrappergps.so \
   vendor/samsung/ha3g/proprietary/vendor/firmware/fimc_is_fw2_3L2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_fw2_3L2.bin \
   vendor/samsung/ha3g/proprietary/vendor/firmware/fimc_is_fw2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_fw2.bin \
@@ -166,7 +166,7 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/bin/sensorhubservice:$(TARGET_COPY_OUT_VENDOR)/bin/sensorhubservice \
   vendor/samsung/ha3g/proprietary/lib/hw/sensorhubs.universal5420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensorhubs.universal5420.so \
   vendor/samsung/ha3g/proprietary/lib/libgnustl_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgnustl_shared.so \
-  vendor/samsung/ha3g/proprietary/lib/hw/sensors.universal5420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.vendor.universal5420.so \
+  vendor/samsung/ha3g/proprietary/lib/hw/sensors.universal5420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.universal5420.so \
   vendor/samsung/ha3g/proprietary/lib/libsensirion_h_3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensirion_h_3.so \
   vendor/samsung/ha3g/proprietary/lib/libsensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorhub.so \
   vendor/samsung/ha3g/proprietary/lib/libsensorhubservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorhubservice.so \
