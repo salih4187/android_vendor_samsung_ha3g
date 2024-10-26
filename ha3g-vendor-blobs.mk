@@ -138,8 +138,7 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
   vendor/samsung/ha3g/proprietary/vendor/lib/libmalicore.bc:$(TARGET_COPY_OUT_VENDOR)/lib/libmalicore.bc \
   vendor/samsung/ha3g/proprietary/vendor/lib/libRSDriverArm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriverArm.so \
-  vendor/samsung/ha3g/proprietary/bin/cbd:$(TARGET_COPY_OUT_VENDOR)/bin/cbd \
-  vendor/samsung/ha3g/proprietary/bin/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd \
+  vendor/samsung/ha3g/proprietary/bin/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/gpsd \
   vendor/samsung/ha3g/proprietary/lib/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.default.so \
   vendor/samsung/ha3g/proprietary/lib/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwrappergps.so \
   vendor/samsung/ha3g/proprietary/vendor/firmware/fimc_is_fw2_3L2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_fw2_3L2.bin \
@@ -188,6 +187,7 @@ PRODUCT_COPY_FILES += \
 
   # RIL
   PRODUCT_COPY_FILES += \
+  vendor/samsung/ha3g/proprietary/bin/cbd:$(TARGET_COPY_OUT_VENDOR)/bin/cbd \
   vendor/samsung/ha3g/proprietary/lib/libaudio-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio-ril.so \
   vendor/samsung/ha3g/proprietary/lib/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril.so \
   vendor/samsung/ha3g/proprietary/etc/wifi/bcmdhd_apsta.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/bcmdhd_apsta.bin \
