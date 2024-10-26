@@ -190,6 +190,9 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/bin/cbd:$(TARGET_COPY_OUT_VENDOR)/bin/cbd \
   vendor/samsung/ha3g/proprietary/lib/libaudio-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio-ril.so \
   vendor/samsung/ha3g/proprietary/lib/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril.so \
+
+  # WiFi - Firmware
+  PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/etc/wifi/bcmdhd_apsta.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/bcmdhd_apsta.bin \
   vendor/samsung/ha3g/proprietary/etc/wifi/bcmdhd_ibss.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/bcmdhd_ibss.bin \
   vendor/samsung/ha3g/proprietary/etc/wifi/bcmdhd_mfg.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/bcmdhd_mfg.bin \
