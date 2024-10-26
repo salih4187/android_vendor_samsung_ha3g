@@ -52,11 +52,11 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/libdrmdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmdecrypt.so \
   vendor/samsung/ha3g/proprietary/lib/libstagefright_hdcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_hdcp.so \
   vendor/samsung/ha3g/proprietary/lib/libhdcp2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcp2.so \
-  vendor/samsung/ha3g/proprietary/vendor/lib/libwvdrm_L1.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libwvdrm_L1.so \
+  vendor/samsung/ha3g/proprietary/vendor/lib/libwvdrm_L1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvdrm_L1.so \
   vendor/samsung/ha3g/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libWVStreamControlAPI_L1.so \
   vendor/samsung/ha3g/proprietary/lib/drm/libdrmwvmplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/drm/libdrmwvmplugin.so \
-  vendor/samsung/ha3g/proprietary/vendor/lib/libwvm.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libwvm.so \
-  vendor/samsung/ha3g/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/mediadrm/libwvdrmengine.so \
+  vendor/samsung/ha3g/proprietary/vendor/lib/libwvm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvm.so \
+  vendor/samsung/ha3g/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
   vendor/samsung/ha3g/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
   vendor/samsung/ha3g/proprietary/vendor/lib/libmalicore.bc:$(TARGET_COPY_OUT_VENDOR)/lib/libmalicore.bc \
   vendor/samsung/ha3g/proprietary/vendor/lib/libRSDriverArm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriverArm.so \
