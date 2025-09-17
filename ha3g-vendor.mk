@@ -117,7 +117,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ha3g/proprietary/vendor/etc/ymc/param/aec_sidetone_vol_wb.dat:$(TARGET_COPY_OUT_VENDOR)/etc/ymc/param/aec_sidetone_vol_wb.dat \
     vendor/samsung/ha3g/proprietary/vendor/etc/ymc/param/aec_sp_dac1.dat:$(TARGET_COPY_OUT_VENDOR)/etc/ymc/param/aec_sp_dac1.dat \
     vendor/samsung/ha3g/proprietary/vendor/lib/hw/audio.primary.vendor.universal5420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.vendor.universal5420.so \
-    vendor/samsung/ha3g/proprietary/vendor/lib/hw/camera.universal5420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.universal5420.so \
     vendor/samsung/ha3g/proprietary/vendor/lib/hw/gps.universal5420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.universal5420.so \
     vendor/samsung/ha3g/proprietary/vendor/lib/hw/sensorhubs.universal5420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensorhubs.universal5420.so \
     vendor/samsung/ha3g/proprietary/vendor/lib/hw/sensors.universal5420.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.universal5420.so \
@@ -142,7 +141,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ha3g/proprietary/vendor/lib/libymc_codecctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libymc_codecctrl.so \
     vendor/samsung/ha3g/proprietary/vendor/lib/libymc_config.so:$(TARGET_COPY_OUT_VENDOR)/lib/libymc_config.so \
     vendor/samsung/ha3g/proprietary/vendor/usr/share/alsa/alsa.conf:$(TARGET_COPY_OUT_SYSTEM)/usr/share/alsa/alsa.conf \
-	vendor/samsung/ha3g/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm2079xB4_firmware.ncd \
+    vendor/samsung/ha3g/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm2079xB4_firmware.ncd \
     vendor/samsung/ha3g/proprietary/vendor/firmware/bcm2079xB4_pre_firmware.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm2079xB4_pre_firmware.ncd \
     vendor/samsung/ha3g/proprietary/vendor/firmware/bcm2079xB5_firmware.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm2079xB5_firmware.ncd \
     vendor/samsung/ha3g/proprietary/vendor/firmware/bcm2079xB5_pre_firmware.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm2079xB5_pre_firmware.ncd \
@@ -157,8 +156,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ha3g/proprietary/vendor/firmware/setfile_3L2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3L2.bin \
     vendor/samsung/ha3g/proprietary/vendor/firmware/setfile_6b2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_6b2.bin \
     vendor/samsung/ha3g/proprietary/vendor/firmware/setfile_imx135.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_imx135.bin
-    
-# NXP - Noise Canceling    
+
+# NXP - Noise Canceling
 PRODUCT_COPY_FILES += \
     vendor/samsung/ha3g/proprietary/vendor/etc/nxp/LVVEFS_Rx_Configuration.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/LVVEFS_Rx_Configuration.txt \
     vendor/samsung/ha3g/proprietary/vendor/etc/nxp/LVVEFS_Tx_Configuration.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/LVVEFS_Tx_Configuration.txt \
