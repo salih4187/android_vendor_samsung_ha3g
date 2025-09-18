@@ -133,7 +133,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ha3g/proprietary/vendor/lib/libsamsungRecord_ns.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsamsungRecord_ns.so \
     vendor/samsung/ha3g/proprietary/vendor/lib/libsamsungRecord_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsamsungRecord_zoom.so \
     vendor/samsung/ha3g/proprietary/vendor/lib/libsamsungSoundbooster_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsamsungSoundbooster_ext.so \
-    vendor/samsung/ha3g/proprietary/vendor/lib/libsec-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril.so \
+    vendor/samsung/ha3g/proprietary/vendor/lib/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril.so \
     vendor/samsung/ha3g/proprietary/vendor/lib/libsensirion_h_3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensirion_h_3.so \
     vendor/samsung/ha3g/proprietary/vendor/lib/libsensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorhub.so \
     vendor/samsung/ha3g/proprietary/vendor/lib/libsensorhubservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorhubservice.so \
