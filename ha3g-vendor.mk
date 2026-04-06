@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ha3g/proprietary/vendor/bin/cbd:$(TARGET_COPY_OUT_VENDOR)/bin/cbd \
     vendor/samsung/ha3g/proprietary/vendor/bin/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/gpsd \
     vendor/samsung/ha3g/proprietary/vendor/bin/sensorhubservice:$(TARGET_COPY_OUT_VENDOR)/bin/sensorhubservice \
+    vendor/samsung/ha3g/proprietary/system/etc/plmn_se13.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/plmn_se13.bin \
     vendor/samsung/ha3g/proprietary/system/etc/wifi/bcmdhd_apsta.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/bcmdhd_apsta.bin \
     vendor/samsung/ha3g/proprietary/system/etc/wifi/bcmdhd_ibss.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/bcmdhd_ibss.bin \
     vendor/samsung/ha3g/proprietary/system/etc/wifi/bcmdhd_mfg.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/bcmdhd_mfg.bin \
@@ -45,6 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ha3g/proprietary/system/etc/wifi/nvram_net.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/nvram_net.txt \
     vendor/samsung/ha3g/proprietary/system/etc/wifi/nvram_net.txt_semco3rd:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/nvram_net.txt_semco3rd \
     vendor/samsung/ha3g/proprietary/system/etc/wifi/nvram_net.txt_wisol:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/nvram_net.txt_wisol \
+    vendor/samsung/ha3g/proprietary/system/etc/wifi/olsrd.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/olsrd.conf \
     vendor/samsung/ha3g/proprietary/vendor/etc/ymc/param/aec_adc.dat:$(TARGET_COPY_OUT_VENDOR)/etc/ymc/param/aec_adc.dat \
     vendor/samsung/ha3g/proprietary/vendor/etc/ymc/param/aec_ae0_through.dat:$(TARGET_COPY_OUT_VENDOR)/etc/ymc/param/aec_ae0_through.dat \
     vendor/samsung/ha3g/proprietary/vendor/etc/ymc/param/aec_ae1_through.dat:$(TARGET_COPY_OUT_VENDOR)/etc/ymc/param/aec_ae1_through.dat \
@@ -147,10 +149,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ha3g/proprietary/vendor/firmware/bcm2079xB5_pre_firmware.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm2079xB5_pre_firmware.ncd \
     vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4335_V0091.0405_wisol.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4335_V0091.0405_wisol.hcd \
     vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4335_V0093.0400.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4335_V0093.0400.hcd \
-    vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4335_V0093.0400_murata.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4335_V0093.0400_murata.hcd \
-    vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4335_V0093.0400_semco.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4335_V0093.0400_semco.hcd \
-    vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4335_V0093.0400_semcosh.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4335_V0093.0400_semcosh.hcd \
-    vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4335_V0093.0400_semcove.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4335_V0093.0400_semcove.hcd \
     vendor/samsung/ha3g/proprietary/vendor/firmware/fimc_is_fw2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_fw2.bin \
     vendor/samsung/ha3g/proprietary/vendor/firmware/fimc_is_fw2_3L2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_fw2_3L2.bin \
     vendor/samsung/ha3g/proprietary/vendor/firmware/setfile_3L2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3L2.bin \
